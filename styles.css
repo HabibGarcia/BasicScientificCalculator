@@ -1,5 +1,4 @@
 body {
-    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,12 +6,13 @@ body {
     background-color: #f4f4f9;
 }
 .calculator {
-    background-color: #5a5151;
+    background-color: #435a56;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 #display {
+    font-family: 'IBM Plex Mono', monospace;
     width: 95%;
     height: 60px;
     margin-bottom: 20px;
@@ -29,6 +29,7 @@ body {
     gap: 10px;
 }
 button {
+    font-family: 'IBM Plex Mono', monospace;
     padding: 20px;
     font-size: 1.5em;
     border: none;
