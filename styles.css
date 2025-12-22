@@ -1,8 +1,57 @@
 body {
-    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #f4f4f9;
+}
+.calculator {
+    background-color: #435a56;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+#display {
+    font-family: 'IBM Plex Mono', monospace;
+    width: 95%;
+    height: 60px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 2em;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual ancho */
+    gap: 10px;
+}
+button {
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    transition: background-color 0.1s;
+}
+button:hover {
+    background-color: #d1d1d1;
+}
+.operator {
+    background-color: #00bab7;
+    color: white;
+}
+.operator:hover {
+    background-color: #019491;
+}
+.clear {
+    background-color: #ff3b30;
+    color: white;
+}
+.clear:hover {
+    background-color: #cc2d26;
 }
